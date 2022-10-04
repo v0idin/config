@@ -9,3 +9,5 @@ ufw allow 52022/tcp
 ufw default deny incoming
 ufw default allow outgoing
 ufw enable
+
+systemctl restart sshd
