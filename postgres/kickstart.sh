@@ -1,5 +1,5 @@
 apt update && apt dist-upgrade -y
-apt install -y docker.io docker-compose plocate mc
+apt install -y plocate mc nftables 
 updatedb
 
 mv /etc/ssh/sshd_config /etc/ssh/sshd_config_init
